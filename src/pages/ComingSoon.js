@@ -1,4 +1,4 @@
-import logo from "../enthuLogo.jpeg";
+import logo from "../enthu-logo.png";
 import styles from "./ComingSoon.module.css";
 
 function ComingSoon() {
