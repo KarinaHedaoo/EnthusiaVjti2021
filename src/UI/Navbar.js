@@ -1,13 +1,12 @@
 import React, { Fragment } from "react";
 // import { Route, Link, BrowserRouter as Router} from "react-router-dom"
-import {BrowserRouter as Link} from "react-router-dom";
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import logo from "../enthu-logo.png";
 import styles from "./Navbar.module.css";
 
 const navigation = [
-    { name: 'About', href: '/about', current: true },
+    { name: 'About', href: '/about', current: false},
     { name: 'Events', href: '/events', current: false },
     { name: 'Team', href: '/team', current: false }
   ]
@@ -17,15 +16,15 @@ const navigation = [
   }
 
 function Navbar() {
-    return(<Disclosure as="nav" className="box-content nav-bg pt-1">
+    return(<Disclosure as="nav" className="box-content nav-bg pt-1 w-full">
         
     {({ open }) => (
       <>
         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-          <div className="relative flex items-center justify-between h-16">
-            <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <div className="relative flex items-center m-4 justify-between h-16">
+            <div className="flex-none justify-start inset-y-0 left-0 flex items-center sm:hidden">
               {/* Mobile menu button*/}
-              <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-grey-purple hover:text-white">
+              <Disclosure.Button className="flex items-left justify-start p-2 rounded-md text-slate-200">
                 <span className="sr-only">Open main menu</span>
                 {open ? (
                   <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -34,17 +33,13 @@ function Navbar() {
                 )}
               </Disclosure.Button>
             </div>
-            <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+            <div className="flex-1 flex items-center justify-center sm:justify-start">
               <div className="flex-shrink-0 flex items-center">
               <img src={logo} className={styles.logo} alt="logo" />
-                <h1
-                  className="block lg:hidden h-8 w-auto font-bold text-lg"                  
-                >ENTHUSIA</h1>
-                <h1
-                  className="hidden lg:block w-64 font-bold text-2xl"
-                >ENTHUSIA, VJTI</h1>
+                <a href='/'><h1 className="block lg:hidden h-8 w-auto font-bold text-lg">ENTHUSIA</h1></a>
+                <a href='/'><h1 className="hidden lg:block w-64 font-bold text-2xl">ENTHUSIA, VJTI</h1></a>
               </div>
-              <div className="hidden md:block md:ml-6">
+              <div className="hidden ml-8 md:block md:ml-6">
             
                 <div className="flex space-x-4">
                   {navigation.map((item) => (
@@ -96,7 +91,7 @@ function Navbar() {
         </div>
 
        
-        <Disclosure.Panel className="lg:hidden">
+        <Disclosure.Panel className="md:hidden">
        
           <div className="px-2 pt-2 pb-3 space-y-1">
             {navigation.map((item) => (
@@ -105,11 +100,10 @@ function Navbar() {
                 href={item.href}
                 className={classNames(
                   item.current ? 'text-white' : 'text-gray-500 hover:text-fuchsia-600',
-                  'block px-3 py-2 rounded-md text-base font-medium border-2 border-gray-500'
+                  'block px-2 py-2 rounded-md text-base font-medium border-2 border-gray-500'
                 )}
                 aria-current={item.current ? 'page' : undefined}
               >
-                <Link to="/about">{item.name}</Link>
                 {item.name}
               </a>
             ))}
