@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 // import { Route, Link, BrowserRouter as Router} from "react-router-dom"
-import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import {BrowserRouter as Link} from "react-router-dom";
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import logo from "../enthu-logo.png";
