@@ -1,11 +1,9 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-
 
 function Footer() {
   return (
-    <footer class=" box-content h-128 w-full text-center lg:text-left bg-zinc-800 text-gray-600">
+    <footer class=" box-content h-128 w-full text-center lg:text-left bg-zinc-800 text-gray-500">
   <div class="flex justify-center items-center md:mx-64 lg:justify-between p-6 border-b border-gray-300">
     <div class="mr-12 text-slate-400 hidden lg:block">
       <span>Get connected with us on social networks:</span>
@@ -51,29 +49,29 @@ function Footer() {
     <div class="grid grid-1 md:grid-cols-2 gap-8 md:gap-16">
       
       <div class="">
-        <h6 class="uppercase text-lg text-slate-400 font-bold mb-4 flex justify-center md:justify-end">
+        <h6 class="uppercase text-lg text-slate-300 font-bold mb-4 flex justify-center md:justify-end">
           Useful links
         </h6>
-        <p class="flex items-center justify-center md:justify-end mb-4 text-lg ">
+        <p class="flex items-center justify-center font-sans md:justify-end mb-4 text-xl ">
           <a href="/about" class="hover:text-white">About</a>
         </p>
-        <p class="flex items-center justify-center md:justify-end mb-4 text-lg ">
+        <p class="flex items-center justify-center font-sans md:justify-end mb-4 text-xl ">
           <a href="/events" class="hover:text-white">Events</a>
         </p>
-        <p class="flex items-center justify-center md:justify-end mb-4 text-lg">
+        <p class="flex items-center justify-center font-sans md:justify-end mb-4 text-xl">
           <a href="/team" class="hover:text-white">Team</a>
         </p>
       </div>
       <div class="">
-        <h6 class="uppercase text-lg font-bold text-slate-400 mb-4 flex justify-center md:justify-start">
+        <h6 class="uppercase text-lg font-bold text-slate-300 mb-4 flex justify-center md:justify-start">
           Contact us
         </h6>
-        <p class="flex items-center justify-center md:justify-start mb-4">
+        <p class="flex items-center font-sans justify-center md:justify-start mb-4 text-xl">
         {/* <BellIcon className="text-dark-grey h-6 w-6" /> */}
         <svg class="w-6 h-6 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
           H R Mahajani Rd, Matunga, Mumbai-400019
         </p>
-        <p class="flex items-center justify-center md:justify-start mb-4">
+        <p class="flex items-center font-sans justify-center md:justify-start mb-4 text-xl">
         <svg class="w-6 h-6 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
         enthusia@vjti.ac.in
         </p>
@@ -81,7 +79,7 @@ function Footer() {
       </div>
     </div>
   </div>
-  <div class="text-center p-6 bg-gray-200">
+  <div class="text-center font-sans p-6 bg-gray-200">
     <span>© 2022 Copyright: ENTHUSIA VJTI. All rights reserved.</span>
   </div>
 </footer>
