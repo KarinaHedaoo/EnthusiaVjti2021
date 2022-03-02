@@ -47,7 +47,7 @@ function Navbar() {
                       key={item.name}
                       href={item.href}
                       className={classNames(
-                        item.current ? 'text-white' : 'text-gray-500 hover:text-fuchsia-600',
+                        item.current ? 'text-white' : 'text-gray-500 hover:text-pink-700',
                         'px-3 py-2 rounded-md text-xl font-medium'
                       )}
                       aria-current={item.current ? 'page' : undefined}
@@ -99,7 +99,7 @@ function Navbar() {
                 key={item.name}
                 href={item.href}
                 className={classNames(
-                  item.current ? 'text-white' : 'text-gray-500 hover:text-fuchsia-600',
+                  item.current ? 'text-white' : 'text-gray-500 hover:text-pink-700',
                   'block px-2 py-2 rounded-md text-base font-medium border-2 border-gray-500'
                 )}
                 aria-current={item.current ? 'page' : undefined}
