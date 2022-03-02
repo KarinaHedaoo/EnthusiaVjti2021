@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./Footer.module.css";
 
 function Footer() {
   return (
@@ -9,6 +8,13 @@ function Footer() {
       <span>Get connected with us on social networks:</span>
     </div>
     <div class="flex justify-center">
+    <a href="https://www.youtube.com/c/EnthusiaVJTIsportsFestival" class="mr-6 text-gray-600">
+      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube"
+          class="w-6 text-gray-400 hover:text-white" role="img" xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 576 512">
+        <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+        </svg>
+      </a>
       <a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbnNodzZvQ0NySUxIaGpsT1BPTzZPckJVdHE3Z3xBQ3Jtc0tsOEtqTm13c21MVFc2Q3dkWnIzdUJlQkZfOC12UVluYWRGQjRiN1dZSjhZV3hYdFhaclBoLTdzcFJqajlyMlJkbW5URWhGMm1iWFVWWWFMLXBxSkU4WURjaGpZd25zSUFfQWVZRkVucDQ2OGtaUnJyaw&q=https%3A%2F%2Fwww.facebook.com%2Fenthusia.vjti%2F" class="mr-6 text-gray-600">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
           class="w-3.5 text-gray-400 hover:text-white" role="img" xmlns="http://www.w3.org/2000/svg"
