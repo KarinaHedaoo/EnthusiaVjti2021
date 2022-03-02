@@ -4,6 +4,10 @@ import "./App.css";
 import About from "./pages/About";
 import Events from "./pages/Events";
 import Team from "./pages/Team";
+import Marathon from "./pages/Marathon";
+import Valorant from "./pages/Valorant";
+import BGMI from "./pages/BGMI";
+import Chess_online from "./pages/Chess_online";
 import Navbar from "./UI/Navbar";
 import Footer from "./UI/Footer";
 
@@ -17,6 +21,10 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/events" component={Events} />
         <Route path="/team" component={Team} />
+        <Route path="/marathon" component={Marathon} />
+        <Route path="/valorant" component={Valorant} />
+        <Route path="/bgmi" component={BGMI} />
+        <Route path="/online-chess" component={Chess_online} />
       </Switch>
       </Router>
       

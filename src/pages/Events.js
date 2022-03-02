@@ -1,4 +1,4 @@
-import styles from "./Events.module.css";
+import React from 'react';
 
 function Events() {
   return (
@@ -16,7 +16,7 @@ function Events() {
 
               <div class="text-slate-400 text-xl uppercase font-sans"> 
                 <ul class="list-none">
-                  <li class="p-2"><a href="#">Marathon (open to all)</a></li>
+                  <li class="p-2"><a href="/marathon">Marathon (open to all)</a></li>
                   <li class="p-2"><a href="#">Athletics (VJTI only)</a></li>
                   <li class="p-2"><a href="#">Football (VJTI only)</a></li>
                   <li class="p-2"><a href="#">Cricket (VJTI only)</a></li>
@@ -38,9 +38,9 @@ function Events() {
 
               <div class="text-slate-400 text-xl uppercase font-sans"> 
                 <ul class="list-none">
-                  <li class="p-2 pt-2"><a href="#">Valorant (open to all)</a></li>
-                  <li class="p-2"><a href="#">BGMI (open to all)</a></li>
-                  <li class="p-2"><a href="#">Chess (open to all)</a></li>
+                  <li class="p-2 pt-2"><a href="/valorant">Valorant (open to all)</a></li>
+                  <li class="p-2"><a href="/bgmi">BGMI (open to all)</a></li>
+                  <li class="p-2"><a href="/online-chess">Chess (open to all)</a></li>
                 </ul>
                 </div> 
 

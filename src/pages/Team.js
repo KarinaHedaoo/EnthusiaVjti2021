@@ -1,5 +1,5 @@
-import styles from "./Team.module.css";
-import Member from "../UI/Member.js"
+import React from "react";
+import Member from "../UI/Member.js";
 
 function Team() {
   return (
