@@ -56,7 +56,7 @@ function Team() {
 
               <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Ajinkya.jpeg?raw=true" alt="MnC-Ajinkya" name="Ajinkya Dudhat"/>
 
-              <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Tejas.jpeg?raw=true" alt="MnC-Tejas" name="Tejas Patil"/>
+              <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Tejas.jpg?raw=true" alt="MnC-Tejas" name="Tejas Patil"/>
 
               <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Apoorv.jpeg?raw=true" alt="MnC-Apoorv" name="Apoorv Mahale"/>
 
@@ -82,7 +82,7 @@ function Team() {
 
               <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Mrinmayi.jpeg?raw=true" alt="PR-Mrinmayi" name="Mrinmayi Gotmare"/>
 
-              <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Vighnesh.jpeg?raw=true" alt="PR-Vignesh" name="Vignesh Ramasubramanium"/>
+              <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Vighnesh.jpeg?raw=true" alt="PR-Vignesh" name="Vignesh Ramasubramaniam"/>
 
           </div>
           </div>
@@ -90,9 +90,9 @@ function Team() {
           <div class="w-full shadow-xl shadow-blue-500/50 border-2 my-4 rounded-md border-slate-100">
             <h1 class="text-xl">Design Heads</h1>
             <div class="p-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-3 lg:grid-cols-3 xl:gap-x-8">
-              <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Aman.jpeg?raw=true" alt="Design-Aman" name="Aman Katakwar"/>
+              <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Aman.jpg?raw=true" alt="Design-Aman" name="Aman Katakwar"/>
 
-              <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Rohit.jpeg?raw=true" alt="Design-Rohit" name="Rohit Bembade"/>
+              <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Rohit.jpg?raw=true" alt="Design-Rohit" name="Rohit Bembade"/>
 
               <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Vrushali.jpeg?raw=true" alt="Design-Vrushali" name="Vrushali Dhargawe"/>
 

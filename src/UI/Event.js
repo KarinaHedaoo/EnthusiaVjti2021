@@ -29,7 +29,7 @@ function Event(props) {
             </button>
 
             <button class="bg-transparent hover:bg-blue-700 font-sans text-pink-700 font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded">
-            <a href={props.sb}>Event brochure</a>
+            <a target='_blank' href={props.brochure}>Event brochure</a>
             </button>
 
         </div> 

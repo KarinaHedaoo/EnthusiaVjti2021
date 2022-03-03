@@ -15,7 +15,7 @@ function Footer() {
         <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
         </svg>
       </a>
-      <a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbnNodzZvQ0NySUxIaGpsT1BPTzZPckJVdHE3Z3xBQ3Jtc0tsOEtqTm13c21MVFc2Q3dkWnIzdUJlQkZfOC12UVluYWRGQjRiN1dZSjhZV3hYdFhaclBoLTdzcFJqajlyMlJkbW5URWhGMm1iWFVWWWFMLXBxSkU4WURjaGpZd25zSUFfQWVZRkVucDQ2OGtaUnJyaw&q=https%3A%2F%2Fwww.facebook.com%2Fenthusia.vjti%2F" class="mr-6 text-gray-600">
+      <a href="https://www.facebook.com/enthusia.vjti/" class="mr-6 text-gray-600">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
           class="w-3.5 text-gray-400 hover:text-white" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 320 512">
@@ -24,7 +24,7 @@ function Footer() {
           </path>
         </svg>
       </a>
-      <a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbDhSNFRKejhXaHFnOHRGeVZXbFVqWFRXTmFXd3xBQ3Jtc0tsNngxanVLOFktZDNBQW9oRW9CQUpkbW85OVFVYUR6cEQ1S2xZYW5nYjZROGFYbVQxQkhhRC1OQlBsRFZ5eXF3ZWo0RDJGZ25hUE5fb3dlYW50TFBzeTlJMkpkZUhCZzZfcGVNQnZrdGxOaVRIOUNWUQ&q=https%3A%2F%2Ftwitter.com%2Fenthusiavjti" class="mr-6 text-gray-600">
+      <a href="https://twitter.com/enthusiavjti" class="mr-6 text-gray-600">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
           class="w-5 text-gray-400 hover:text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
           <path fill="currentColor"
@@ -32,7 +32,7 @@ function Footer() {
           </path>
         </svg>
       </a>
-      <a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqa3liUkVib1ZlRGcxUVUtLUphQ2UtVFFqd0F4UXxBQ3Jtc0tuWVoyY2NfdUY1eFNvMlJBT2VCdEVUX0NWRVhNVTFrVFVQbWR1Z2kzWUtySlY1UmhOT2hnQ2RVb2RJZTNGWkNIREpmZTdvUjc1SUo4NVMzZnpTazNXWmtvU3dzUS1UMjNLMU12OFh0MkhFMjJVUzJoMA&q=https%3A%2F%2Fwww.instagram.com%2Fenthusiavjti%2F" class="mr-6 text-gray-600">
+      <a href="https://www.instagram.com/enthusiavjti/" class="mr-6 text-gray-600">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
           class="w-5 text-gray-400 hover:text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
           <path fill="currentColor"
@@ -40,7 +40,7 @@ function Footer() {
           </path>
         </svg>
       </a>
-      <a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqa3QyODgyRVZaYVZtN2xaQ0JlNU80dWpCTTNIQXxBQ3Jtc0tsZC1LbW5GbTJ2aXFfNFNaNzhadUdCbzA4ZDNrMy1iMmRoUDlTMmtvMGNwY3ZxdWFTWnczTkh1OU1sMTlFcGdvRjloS2VpSWRlSkRvRXN6bmVsR196OTdnTm43YlV4ZEFwdUZVdjQ5bTE5N1ZkM2dYaw&q=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fenthusia-vjti-2k21" class="mr-6 text-gray-600">
+      <a href="https://www.linkedin.com/company/enthusia-vjti-2k21" class="mr-6 text-gray-600">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
           class="w-5 text-gray-400 hover:text-white" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512">

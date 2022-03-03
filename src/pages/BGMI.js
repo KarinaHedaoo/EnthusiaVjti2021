@@ -7,7 +7,7 @@ function BGMI() {
         text2="Non-VJTI/Mixed team(Either all or atleast one member of the team is non-VJTIan)"
         fee="200" form="" 
         sb="" 
-        brochure="" />
+        brochure="https://drive.google.com/file/d/1BGhbT_VHmaNUsBtqlBRQB1Y24F1f2cnc/view?usp=sharing" />
     )
 }
 
