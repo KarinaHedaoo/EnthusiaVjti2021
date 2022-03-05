@@ -1,0 +1,15 @@
+.logo {
+    display: inline;
+    height: 40vmin;
+    pointer-events: none;
+    margin-bottom: 3%;
+  }
+  
+  h1, h2 {
+    margin: 1% 0;
+  }
+  
+  h1 {
+    color: #4a7ce5;
+  }
+  
