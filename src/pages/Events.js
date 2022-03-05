@@ -9,10 +9,11 @@ function Events() {
           <h2 class="text-3xl font-extrabold uppercase tracking-tight text-gray-200">MAIN FEST EVENTS 2k21-22</h2>
         </div>
 
-        <div class=" grid grid-cols-2">
+        <div class=" grid grid-cols-2 gap-8">
           
-            <div class="">
-              <h1 class="text-2xl">OFFLINE (VJTI students only)</h1>
+            <div class="mx-4">
+              <h1 class="text-lg lg:text-xl">OFFLINE</h1>
+              <span class="text-lg lg:text-xl text-pink-700">(VJTI students only)</span>
 
               <div class="text-slate-400 text-xl uppercase font-sans"> 
                 <ul class="list-none">
@@ -33,7 +34,7 @@ function Events() {
             </div>
 
             <div class="">
-              <h1 class="text-2xl">OPEN TO ALL</h1>
+              <h1 class="text-lg lg:text-xl">OPEN TO ALL</h1>
 
               <div class="text-slate-400 text-xl uppercase font-sans"> 
                 <ul class="list-none">

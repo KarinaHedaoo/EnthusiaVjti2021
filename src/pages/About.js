@@ -18,16 +18,17 @@ and an indoor and outdoor Gymnasium.</h2> </div>
     </div>
 
     <div className="m-4">
-      <h1 className="text-2xl">Upcoming events<span className="text-pink-700"> (Open to all)</span></h1>
+      <h1 className="text-2xl">Upcoming events</h1>
+      <span className="text-xl text-pink-700"> (Open to all)</span>
       
       <div class="p-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-        <a href="/marathon"><Member name="Marathon (2oth March)" alt="enthusia-marathon-poster"
+        <a className="border-solid border-2 rounded border-blue-500 p-4" href="/marathon"><Member name="Marathon (2oth March)" alt="enthusia-marathon-poster"
         src="https://raw.githubusercontent.com/DevayaniShivankar/enthu_core/main/posters/Marathon.webp"/></a>
-        <a href="/valorant"><Member name="Valorant (16th -19th March)" alt="enthusia-valorant-poster"
+        <a className="border-solid border-2 rounded border-blue-500 p-4" href="/valorant"><Member name="Valorant (16th -19th March)" alt="enthusia-valorant-poster"
         src="https://github.com/DevayaniShivankar/enthu_core/blob/main/posters/Valorant.png?raw=true"/></a>
-        <a href="/bgmi"><Member name="BGMI (17th -19th March)" alt="enthusia-bgmi-poster"
+        <a className="border-solid border-2 rounded border-blue-500 p-4" href="/bgmi"><Member name="BGMI (17th -19th March)" alt="enthusia-bgmi-poster"
         src="https://github.com/DevayaniShivankar/enthu_core/blob/main/posters/BGMI.png?raw=true"/></a>
-        <a href="/online-chess"><Member name="Chess (16th -17th March)" alt="enthusia-chess-poster"
+        <a className="border-solid border-2 rounded border-blue-500 p-4" href="/online-chess"><Member name="Chess (16th -17th March)" alt="enthusia-chess-poster"
         src="https://github.com/DevayaniShivankar/enthu_core/blob/main/posters/Chess.png?raw=true"/></a>
 
       </div>
