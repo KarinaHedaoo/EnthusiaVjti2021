@@ -9,7 +9,7 @@ function Valorant() {
         vjtifee="FREE" 
         text2="Non-VJTI/Mixed team(Either all or atleast one member of the team is non-VJTIan)" 
         form="https://forms.gle/M3XGUGSweyKVkeDA6"
-        brochure="" />
+        brochure="https://drive.google.com/file/d/1gKA1A57U9bnzLMU9mbjz-x2sTrQVygtE/view?usp=sharing" />
        
     )
 }
