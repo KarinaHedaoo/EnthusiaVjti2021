@@ -17,16 +17,16 @@ function Events() {
 
               <div class="text-slate-400 text-xl uppercase font-sans"> 
                 <ul class="list-none">
-                  <li class="p-2"><a href="#">Athletics </a></li>
-                  <li class="p-2"><a href="#">Football </a></li>
-                  <li class="p-2"><a href="#">Cricket </a></li>
-                  <li class="p-2"><a href="#">Basketball </a></li>
-                  <li class="p-2"><a href="#">Volleyball </a></li>
-                  <li class="p-2"><a href="#">Throwball </a></li>
-                  <li class="p-2"><a href="#">Kho-Kho </a></li>
-                  <li class="p-2"><a href="#">Chess </a></li>
-                  <li class="p-2"><a href="#">Carrom </a></li>
-                  <li class="p-2"><a href="#">Table Tennis </a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="#">Athletics </a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="#">Football </a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="#">Cricket </a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="#">Basketball </a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="#">Volleyball </a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="#">Throwball </a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="#">Kho-Kho </a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="#">Chess </a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="#">Carrom </a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="#">Table Tennis </a></li>
                   
                 </ul>
                 </div> 
@@ -38,10 +38,10 @@ function Events() {
 
               <div class="text-slate-400 text-xl uppercase font-sans"> 
                 <ul class="list-none">
-                <li class="p-2"><a href="/marathon">Marathon <span className="text-pink-700">(OFFLINE)</span></a></li>
-                  <li class="p-2 pt-2"><a href="/valorant">Valorant <span className="text-pink-700">(ONLINE)</span></a></li>
-                  <li class="p-2"><a href="/bgmi">BGMI <span className="text-pink-700">(ONLINE)</span></a></li>
-                  <li class="p-2"><a href="/online-chess">Chess <span className="text-pink-700">(ONLINE)</span></a></li>
+                <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="/marathon">Marathon <span className="text-pink-700">(OFFLINE)</span></a></li>
+                  <li class="p-2 pt-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="/valorant">Valorant <span className="text-pink-700">(ONLINE)</span></a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="/bgmi">BGMI <span className="text-pink-700">(ONLINE)</span></a></li>
+                  <li class="p-2 m-2"><a class="bg-transparent hover:bg-blue-700 font-sans font-semibold hover:text-white py-2 mb-4 px-4 border border-pink-700 hover:border-transparent rounded" href="/online-chess">Chess <span className="text-pink-700">(ONLINE)</span></a></li>
                 </ul>
                 </div> 
 

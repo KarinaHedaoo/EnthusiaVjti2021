@@ -36,7 +36,7 @@ function Team() {
         <div class="w-full shadow-xl shadow-blue-500/50 border-2 my-4 rounded-md border-slate-100">
             <h1 class="text-xl">EXECUTIVE DIRECTORS</h1>
             <div class="p-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-              <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Devayani.jpeg?raw=true" alt="ED-Devayani" name="Devayani Shivankar"/>
+              <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Devayani.jpg?raw=true" alt="ED-Devayani" name="Devayani Shivankar"/>
 
               <Member src="https://github.com/DevayaniShivankar/enthu_core/blob/main/photos/Pushkar.jpeg?raw=true" alt="ED-Pushkar" name="Pushkar Modi"/>
 
